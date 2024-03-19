@@ -8,14 +8,14 @@
 }
 
 :root {
-    --sideBGColor : #040B14;
-    --themeColor : #00A78E;
-    --iconBGColor : #2C2F3F;
-    --textColor : #525252;
-    --bgColor : #f7f7f7;
+    --sideBGColor: #040B14;
+    --themeColor: #00A78E;
+    --iconBGColor: #2C2F3F;
+    --textColor: #525252;
+    --bgColor: #f7f7f7;
 }
 
-.header {
+header {
     height: 100vh;
     width: 300px;
     padding: 15px 30px;
@@ -27,4 +27,13 @@
     bottom: 0;
     transition: 0.4s;
     z-index: 99;
+}
+
+header .profile {
+    text-align: center;
+    margin: 10px 0;
+}
+
+header .profile img {
+    width: 150px;
 }
