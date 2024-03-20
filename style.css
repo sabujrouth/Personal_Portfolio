@@ -66,3 +66,10 @@ header .profile .social-icons a:hover {
 header nav {
     margin-top: 30px;
 }
+
+header nav ul li {
+    list-style: none;
+}
+header nav ul li a {
+    display: inline-block;
+}
