@@ -70,6 +70,7 @@ header nav {
 header nav ul li {
     list-style: none;
 }
+
 header nav ul li a {
     display: inline-block;
     text-decoration: none;
@@ -79,4 +80,14 @@ header nav ul li a {
     font-weight: 400;
     font-size: 15px;
     letter-spacing: 0.6px;
+}
+
+header nav ul li a i {
+    margin-right: 10px;
+    font-size: 20px;
+    transition: 0.4s;
+}
+
+header nav ul li a:hover i {
+    color: var(--themeColor);
 }
