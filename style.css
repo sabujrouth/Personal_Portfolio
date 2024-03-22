@@ -91,3 +91,7 @@ header nav ul li a i {
 header nav ul li a:hover i {
     color: var(--themeColor);
 }
+
+header nav ul li .active i {
+    color: var(--themeColor);
+}
