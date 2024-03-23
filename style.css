@@ -127,6 +127,20 @@ header .footer p a {
     line-height: 42px;
     border-radius: 50%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 20%);
-    display: none;                                                                                                                    
+    display: none;
     z-index: 999;
+}
+
+@media only screen and (max-width: 1050px) {
+    header {
+        left: -300px;
+    }
+
+    header .footer {
+        left: -300px;
+    }
+
+    #MenuBtn {
+        display: block;
+    }
 }
