@@ -152,3 +152,17 @@ header .footer p a {
 .mobile-nav-active header .footer {
     left: 0;
 }
+
+
+main {
+    margin-left: 300px;
+    background-color: var(--bgColor);
+    transition: 0.3s;
+}
+
+@media only screen and (max-width: 1050px) {
+    main {
+        margin-left: 0;
+    }
+    
+}
