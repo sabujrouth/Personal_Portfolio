@@ -10,7 +10,6 @@ Welcome to my portfolio website! This website showcases my projects, skills, and
   - [Projects](#projects)
   - [Skills](#skills)
   - [Contact](#contact)
-  - [License](#license)
 
 ## About Me
 
@@ -27,7 +26,3 @@ Outline your technical skills and areas of expertise. Mention programming langua
 ## Contact
 
 Provide your contact information, such as email address and links to your social media profiles. Encourage visitors to reach out to you for collaboration or any inquiries.
-
-## License
-
-Specify the license under which your portfolio website and its contents are released. You can choose from various open-source licenses or specify your own terms.
