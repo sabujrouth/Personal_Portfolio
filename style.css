@@ -258,4 +258,8 @@ main {
 
 #about .divider ~p {
     color: var(--textColor);
+    font-size: 15px;
+    letter-spacing: 0.4px;
+    font-weight: 400;
+    margin-top: 15px;
 }
