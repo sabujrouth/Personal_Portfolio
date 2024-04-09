@@ -269,3 +269,12 @@ main {
     gap: 20px;
     margin-top: 25px;
 }
+
+#about .about-col .im-col {
+    flex-basis: 35%;
+    text-align: center;
+}
+#about .about-col .im-col img {
+    width: 100%;
+    
+}
