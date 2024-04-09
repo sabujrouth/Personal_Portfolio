@@ -256,10 +256,16 @@ main {
     border-radius: 3px;
 }
 
-#about .divider ~p {
+#about .divider~p {
     color: var(--textColor);
     font-size: 15px;
     letter-spacing: 0.4px;
     font-weight: 400;
     margin-top: 15px;
+}
+
+#about .about-col {
+    display: flex;
+    gap: 20px;
+    margin-top: 25px;
 }
