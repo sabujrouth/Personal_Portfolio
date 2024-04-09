@@ -289,3 +289,10 @@ main {
     letter-spacing: 0.5px;
     margin-top: -10px;
 }
+
+#about .about-col .info-col p {
+    color: var(--textColor);
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    font-style: italic;
+}
