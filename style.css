@@ -276,5 +276,17 @@ main {
 }
 #about .about-col .im-col img {
     width: 100%;
-    
 }
+
+#about .about-col .info-col {
+    flex-basis: 70%;
+}
+
+#about .about-col .info-col h2 {
+    color: var(--themeColor);
+    font-weight: 700;
+    font-size: 35px;
+    letter-spacing: 0.5px;
+    margin-top: -10px;
+}
+
