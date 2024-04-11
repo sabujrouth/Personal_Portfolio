@@ -317,3 +317,9 @@ main {
     font-weight: 600;
     margin-right: 5px;
 }
+
+#about .about-col .info-col .icon-list-col .icon-list ul li span {
+    color: var(--textColor);
+    font-weight: 500;
+    font-size: 15px;
+}
