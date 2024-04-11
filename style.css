@@ -323,3 +323,15 @@ main {
     font-weight: 500;
     font-size: 15px;
 }
+
+@media only screen and (max-width: 850px) {
+    #about {
+        padding: 50px 10px;
+    }
+
+    #about .divider ~p {
+        font-size: 14px;
+        letter-spacing: 0;
+        text-align: justify;
+    }
+}
