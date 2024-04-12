@@ -324,7 +324,7 @@ main {
     font-size: 15px;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 830px) {
     #about {
         padding: 50px 10px;
     }
