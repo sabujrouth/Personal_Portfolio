@@ -334,4 +334,13 @@ main {
         letter-spacing: 0;
         text-align: justify;
     }
+
+    #about .about-col {
+        flex-direction: column;
+    }
+
+    #about .about-col .im-col img {
+        width: 50%;
+    }
+    
 }
