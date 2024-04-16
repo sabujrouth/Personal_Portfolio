@@ -365,6 +365,11 @@ main {
         letter-spacing: 0px;
     }
 
+    #about .about-col .info-col .icon-list-col {
+        flex-direction: column;
+        gap: 0px;
+    }
+
 }
 
 /* ABOUT END */
