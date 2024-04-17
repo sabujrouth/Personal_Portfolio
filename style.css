@@ -374,6 +374,11 @@ main {
         margin: 15px;
     }
 
+    #about .about-col .info-col .icon-list-col .icon-list ul li strong {
+        font-weight: 500;
+        margin-right: 0px;
+    }
+
 }
 
 /* ABOUT END */
