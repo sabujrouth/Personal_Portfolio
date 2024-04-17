@@ -367,7 +367,11 @@ main {
 
     #about .about-col .info-col .icon-list-col {
         flex-direction: column;
-        gap: 0px;
+        gap: 0;
+    }
+
+    #about .about-col .info-col .icon-list-col .icon-list ul li {
+        margin: 15px;
     }
 
 }
