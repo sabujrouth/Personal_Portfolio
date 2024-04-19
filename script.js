@@ -9,6 +9,8 @@ MenuBtn.addEventListener('click', function (e) {
     this.classList.toggle('fa-xmark')
 })
 
+/* This code snippet is initializing a new Typed instance on an element with the class 'auto-input'.
+The Typed library is typically used to create typing animations on web pages. */
 let typed = new Typed('.auto-input', {
     strings: ['Web Developer!', 'Designer!', 'Freelancer!'],
     typeSpeed: 100,
