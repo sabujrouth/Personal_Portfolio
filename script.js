@@ -1,3 +1,7 @@
+/* This JavaScript code is selecting an element with the id 'MenuBtn' from the document and assigning
+it to the variable MenuBtn. It then adds a click event listener to the MenuBtn element. When the
+MenuBtn is clicked, it toggles the 'mobile-nav-active' class on the body element using
+document.querySelector('body').classList.toggle('mobile-nav-active'). */
 let MenuBtn = document.getElementById('MenuBtn')
 
 MenuBtn.addEventListener('click', function (e) {
