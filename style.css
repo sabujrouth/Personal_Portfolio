@@ -37,7 +37,7 @@ header .profile {
 }
 
 header .profile img {
-    width: 150px;
+    width: 200px;
     border-radius: 50%;
     border: 10px solid var(--iconBGColor);
 }
@@ -310,6 +310,7 @@ main {
 
 #about .about-col .info-col .icon-list-col {
     display: flex;
+    flex-direction: row;
     margin-top: 20px;
     gap: 40px;
 }
@@ -370,10 +371,15 @@ main {
         flex-direction: column;
     }
 
-    #about .about-col .im-col img {
+    #about .about-col .im-col {
+        flex-basis: 70%;
+        text-align: center;
+    }
+
+    /* #about .about-col .im-col img {
         width: 50%;
 
-    }
+    } */
 
     #about .about-col .info-col h2 {
         font-weight: 600;
@@ -388,6 +394,7 @@ main {
 
     #about .about-col .info-col .icon-list-col {
         flex-direction: column;
+        flex-wrap: wrap;
         gap: 0;
     }
 
