@@ -351,7 +351,7 @@ main {
     }
 
     #about .about-col .im-col img {
-        width: 100%;
+        width: 50%;
     }
 
     #about .about-col .info-col h2 {
@@ -376,9 +376,13 @@ main {
 
     #about .about-col .info-col .icon-list-col .icon-list ul li strong {
         font-weight: 500;
-        margin-right: 0px;
+        margin-right: 13px;
     }
-
 }
 
+@media only screen and (max-width: 400px) {
+    #about .about-col .im-col img {
+        width: 50%;
+    }
+}
 /* ABOUT END */
