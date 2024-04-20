@@ -15,7 +15,7 @@
     --bgColor: #f7f7f7;
 }
 
-/* HEADER START*/
+/* -------------------------------------HEADER START-------------------------------------*/
 
 header {
     height: 100vh;
@@ -169,9 +169,9 @@ main {
 
 }
 
-/* HEADER END*/
+/* -------------------------------------HEADER END-------------------------------------*/
 
-/* HOME START */
+/* -------------------------------------HOME START------------------------------------- */
 
 #home {
     height: 100vh;
@@ -244,9 +244,9 @@ main {
     }
 }
 
-/* HOME END */
+/* -------------------------------------HOME END------------------------------------- */
 
-/* ABOUT START */
+/* -------------------------------------ABOUT START------------------------------------- */
 
 
 #about {
@@ -335,6 +335,26 @@ main {
     font-size: 15px;
 }
 
+@media only screen and (max-width: 1000px) {
+    #about .about-col .info-col .icon-list-col {
+        display: flex;
+        margin-top: 20px;
+        gap: 20px;
+    }
+
+    #about .about-col .info-col p {
+        letter-spacing: 0px;
+    }
+
+    #about .about-col .info-col .icon-list-col .icon-list ul li strong {
+        font-size: 14px;
+    }
+
+    #about .about-col .info-col .icon-list-col .icon-list ul li span {
+        font-size: 14px;
+    }
+}
+
 @media only screen and (max-width: 830px) {
     #about {
         padding: 50px 10px;
@@ -352,6 +372,7 @@ main {
 
     #about .about-col .im-col img {
         width: 50%;
+
     }
 
     #about .about-col .info-col h2 {
@@ -385,4 +406,5 @@ main {
         width: 50%;
     }
 }
-/* ABOUT END */
+
+/* -------------------------------------ABOUT END------------------------------------- */
