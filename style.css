@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 * {
     margin: 0;
@@ -57,7 +57,8 @@ header .profile .social-icons a {
     background-color: var(--iconBGColor);
     color: white;
     font-size: 18px;
-    margin: 1.5px;
+    margin: 3.5px;
+    margin-top: 15px;
     transition: 0.4s;
 }
 
