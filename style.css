@@ -336,25 +336,6 @@ main {
     font-size: 15px;
 }
 
-@media only screen and (max-width: 1000px) {
-    #about .about-col .info-col .icon-list-col {
-        display: flex;
-        margin-top: 20px;
-        gap: 20px;
-    }
-
-    #about .about-col .info-col p {
-        letter-spacing: 0px;
-    }
-
-    #about .about-col .info-col .icon-list-col .icon-list ul li strong {
-        font-size: 14px;
-    }
-
-    #about .about-col .info-col .icon-list-col .icon-list ul li span {
-        font-size: 14px;
-    }
-}
 
 @media only screen and (max-width: 830px) {
     #about {
@@ -370,11 +351,6 @@ main {
     #about .about-col {
         flex-direction: column;
     }
-
-    /* #about .about-col .im-col {
-        flex-basis: 70%;
-        text-align: center;
-    } */
 
     #about .about-col .img-col img {
         width: 50%;
