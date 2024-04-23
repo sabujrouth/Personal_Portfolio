@@ -352,7 +352,7 @@ main {
     #about .divider~p {
         font-size: 14px;
         letter-spacing: 0;
-        text-align: justify;
+        /* text-align: justify; */
     }
 
     #about .about-col {
@@ -391,7 +391,7 @@ main {
 
     #about .about-col .info-col .icon-list-col .icon-list ul li span {
         font-weight: 400;
-        font-size: 13px;
+        font-size: 14px;
     }
 }
 
