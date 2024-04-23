@@ -411,6 +411,11 @@ main {
     padding: 70px 30px;
     background-color: white;
 }
+
+#fact .fact-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
 /* -------------------------------------FACTS END------------------------------------- */
 
 
