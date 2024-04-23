@@ -448,6 +448,20 @@ main {
     }
 }
 
-@media only screen and (max-width: 370px) {}
+@media only screen and (max-width: 370px) {
+    #fact .fact-row .fact-box i {
+        font-size: 30px;
+    }
+
+    #fact .fact-row .fact-box strong {
+        font-size: 20px;
+
+    }
+
+    #fact .fact-row .fact-box p {
+        font-weight: 400;
+        font-size: 14px;
+    }
+}
 
 /* -------------------------------------FACTS END------------------------------------- */
