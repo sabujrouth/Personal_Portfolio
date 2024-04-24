@@ -355,7 +355,7 @@ main {
         /* text-align: justify; */
     }
 
-    #about .about-col {
+    #about .about-col { 
         flex-direction: column;
     }
 
