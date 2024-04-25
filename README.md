@@ -5,7 +5,6 @@ Welcome to my portfolio website! This website showcases my projects, skills, and
 ## Table of Contents
 
 - [My Portfolio](#my-portfolio)
-  - [Table of Contents](#table-of-contents)
   - [About Me](#about-me)
   - [Projects](#projects)
   - [Skills](#skills)
