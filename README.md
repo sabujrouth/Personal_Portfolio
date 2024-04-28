@@ -4,7 +4,7 @@ Welcome to my portfolio website! This website showcases my projects, skills, and
 
 ## Table of Contents
 
-- [My Portfolio](#my-portfolio)
+- [Sabuj's Portfolio](#my-portfolio)
   - [About Me](#about-me)
   - [Projects](#projects)
   - [Skills](#skills)
