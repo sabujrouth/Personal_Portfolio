@@ -529,4 +529,11 @@ main {
     padding: 70px 30px;
     background-color: white;
 }
+
+#resume .resume-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 35px;
+}
 /* =======================================RESUME END=======================================*/
