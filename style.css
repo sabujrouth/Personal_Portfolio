@@ -566,4 +566,9 @@ main {
     border: 2px solid var(--themeColor);
     background-color: white;
 }
+
+#resume .resume-row .resume-cols h3 {
+    color: var(--sideBGColor);
+    font-size: 17px;
+}
 /* =======================================RESUME END=======================================*/
