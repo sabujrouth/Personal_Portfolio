@@ -621,4 +621,18 @@ main {
     display: inline-block;
 }
 
+#resume .resume-row .resume-cols .my-edu span + p {
+    color: var(--textColor);
+    font-size: 15px;
+    font-weight: 500;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+#resume .resume-row .resume-cols .my-edu span + p +p {
+    color: var(--textColor);
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
 /* =======================================RESUME END=======================================*/
