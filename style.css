@@ -613,7 +613,7 @@ main {
     padding: 4px 22px;
     background-color: lightblue;
     color: var(--textColor);
-    border-radius: 30px;
+    border-radius: 3px;
     font-size: 14px;
     font-weight: 600;
     font-style: italic;
