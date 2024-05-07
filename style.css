@@ -636,4 +636,9 @@ main {
     padding-bottom: 15px;
 }
 
+#resume .resume-row .resume-cols .pro-exp {
+    padding: 0 20px 0 20px;
+    
+}
+
 /* =======================================RESUME END=======================================*/
