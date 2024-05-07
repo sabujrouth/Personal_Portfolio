@@ -591,4 +591,34 @@ main {
     font-weight: 500;
 }
 
+#resume .resume-row .resume-cols .my-edu {
+    padding: 0 20px 0 20px;
+    border-left: 2px solid var(--themeColor);
+    position: relative;
+}
+
+#resume .resume-row .resume-cols .my-edu::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: -10px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid var(--themeColor);
+    background-color: white;
+}
+
+#resume .resume-row .resume-cols .sp-box {
+    padding: 4px 22px;
+    background-color: lightblue;
+    color: var(--textColor);
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: italic;
+    margin: 15px 0;
+    display: inline-block;
+}
+
 /* =======================================RESUME END=======================================*/
