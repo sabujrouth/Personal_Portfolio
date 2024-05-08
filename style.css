@@ -659,7 +659,14 @@ main {
     font-size: 17px;
     font-weight: 500;
     font-style: italic;
-    
+}
+
+#resume .resume-row .resume-cols .pro-exp ul li {
+    margin: 10px 0;
+    margin-left: 20px;
+    color: var(--textColor);
+    font-size: 15px;
+    font-weight: 500;
 }
 
 /* =======================================RESUME END=======================================*/
