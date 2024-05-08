@@ -654,4 +654,12 @@ main {
     background-color: white;
 }
 
+#resume .resume-row .resume-cols .pro-exp p {
+    color: var(--textColor);
+    font-size: 17px;
+    font-weight: 500;
+    font-style: italic;
+    
+}
+
 /* =======================================RESUME END=======================================*/
