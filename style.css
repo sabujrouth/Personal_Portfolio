@@ -637,7 +637,7 @@ main {
 }
 
 #resume .resume-row .resume-cols .pro-exp {
-    padding: 0 20px 0 20px;
+    padding: 10px 20px;
     border-left: 2px solid var(--themeColor);
     position: relative;
 }
