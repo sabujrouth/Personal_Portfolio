@@ -698,4 +698,11 @@ main {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 35px;
 }
+
+#portfolio .port-row .port-item {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 20%);
+}
 /* =======================================PORTFOLIO END=======================================*/
