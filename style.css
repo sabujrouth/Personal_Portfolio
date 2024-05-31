@@ -691,4 +691,11 @@ main {
 #portfolio {
     padding: 70px 30px;
 }
+
+#portfolio .port-row {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 35px;
+}
 /* =======================================PORTFOLIO END=======================================*/
