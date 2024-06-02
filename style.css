@@ -703,7 +703,6 @@ main {
     position: relative;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 20%);
 }
 
 #portfolio .port-row .port-item .port-img img {
@@ -725,10 +724,10 @@ main {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    /* transform: scale(0); */
+    transform: scale(0);
     transition: 0.4s;
     border-radius: 0;
-    /* visibility: hidden; */
+    visibility: hidden;
 }
 
 #portfolio .port-row .port-item:hover .port-info {
@@ -763,6 +762,6 @@ main {
 #portfolio .port-row .port-item .port-info a:hover {
     background-color: var(--sideBGColor);
     color: var(--bgColor);
-    
+
 }
 /* =======================================PORTFOLIO END=======================================*/
