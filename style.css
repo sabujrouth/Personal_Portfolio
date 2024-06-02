@@ -759,4 +759,10 @@ main {
     line-height: 46px;
     transition: 0.4s;
 }
+
+#portfolio .port-row .port-item .port-info a:hover {
+    background-color: var(--sideBGColor);
+    color: var(--bgColor);
+    
+}
 /* =======================================PORTFOLIO END=======================================*/
