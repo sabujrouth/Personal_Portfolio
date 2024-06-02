@@ -741,4 +741,9 @@ main {
     font-size: 25px;
     font-weight: 600;
 }
+
+#portfolio .port-row .port-item .port-info h4 + p {
+    color: var(--bgColor);
+    font-size: 14px;
+}
 /* =======================================PORTFOLIO END=======================================*/
