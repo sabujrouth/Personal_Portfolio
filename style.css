@@ -673,11 +673,11 @@ main {
     #resume {
         padding: 50px 15px;
     }
-    
+
     #resume .resume-row {
         flex-direction: column;
     }
-    
+
     #resume .resume-row .resume-cols {
         flex-basis: 100%;
     }
@@ -741,7 +741,7 @@ main {
     font-weight: 600;
 }
 
-#portfolio .port-row .port-item .port-info h4 + p {
+#portfolio .port-row .port-item .port-info h4+p {
     color: var(--bgColor);
     font-size: 14px;
 }
@@ -762,6 +762,17 @@ main {
 #portfolio .port-row .port-item .port-info a:hover {
     background-color: var(--sideBGColor);
     color: var(--bgColor);
-
 }
+
+@media only screen and (max-width: 650px) {
+    #portfolio {
+        padding: 50px 10px;
+    }
+
+    #portfolio .port-row {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 15px;
+    }
+}
+
 /* =======================================PORTFOLIO END=======================================*/
