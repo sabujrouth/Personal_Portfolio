@@ -813,7 +813,8 @@ main {
     line-height: 46px;
     background-color: var(--themeColor);
     color: var(--bgColor);
-    
+    transition: 0.7s;
+    text-align: center;
 }
 
 /* =======================================SERVICES END=======================================*/
