@@ -798,4 +798,10 @@ main {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
 }
+
+#service .service-row .service-box {
+    display: flex;
+    gap: 20px;
+    
+}
 /* =======================================SERVICES END=======================================*/
