@@ -809,6 +809,11 @@ main {
     height: 50px;
     border-radius: 50%;
     border: 2px solid var(--themeColor);
+    font-size: 22px;
+    line-height: 46px;
+    background-color: var(--themeColor);
+    color: var(--bgColor);
+    
 }
 
 /* =======================================SERVICES END=======================================*/
