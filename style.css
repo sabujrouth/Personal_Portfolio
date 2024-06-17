@@ -817,4 +817,10 @@ main {
     text-align: center;
 }
 
+#service .service-row .service-box:hover .icon i {
+    color: var(--themeColor);
+    background-color: var(--bgColor);
+    
+}
+
 /* =======================================SERVICES END=======================================*/
