@@ -820,7 +820,12 @@ main {
 #service .service-row .service-box:hover .icon i {
     color: var(--themeColor);
     background-color: var(--bgColor);
-    
+}
+
+#service .service-row .service-box .ser-info h4 {
+    color: var(--sideBGColor);
+    font-size: 20px;
+    font-weight: 600;
 }
 
 /* =======================================SERVICES END=======================================*/
