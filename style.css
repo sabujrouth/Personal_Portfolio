@@ -828,4 +828,9 @@ main {
     font-weight: 600;
 }
 
+#service .service-row .service-box .ser-info h4 + p {
+    color: var(--textColor);
+    font-size: 14px;
+}
+
 /* =======================================SERVICES END=======================================*/
