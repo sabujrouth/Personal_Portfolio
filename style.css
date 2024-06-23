@@ -831,6 +831,8 @@ main {
 #service .service-row .service-box .ser-info h4 + p {
     color: var(--textColor);
     font-size: 14px;
+    font-weight: 500;
+
 }
 
 /* =======================================SERVICES END=======================================*/
