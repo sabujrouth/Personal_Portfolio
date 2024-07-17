@@ -907,10 +907,13 @@ main {
     font-size: 20px;
     color: var(--sideBGColor);
     font-weight: 600;
-    
 }
 
-#contact .contact-row .contact-left .icon-box .info h4+p {}
+#contact .contact-row .contact-left .icon-box .info h4+p {
+    color: var(--textColor);
+    font-size: 15px;
+    font-weight: 500;
+}
 
 
 
