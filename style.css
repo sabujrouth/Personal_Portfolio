@@ -893,6 +893,17 @@ main {
     text-align: center;
     line-height: 47px;
     font-size: 20px;
+    color: var(--themeColor);
+    transition: 0.5s;
+}
+
+#contact .contact-row .contact-left .icon-box:hover .icon i {
+    background-color: var(--themeColor);
+    color: var(--bgColor);
+}
+
+#contact .contact-row .contact-left .icon-box .info h4 {
+    
 }
 
 
