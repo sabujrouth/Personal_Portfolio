@@ -19,4 +19,11 @@ let typed = new Typed('.auto-input', {
     loop: true
 })
 
+// Active Link State On Scroll
 
+// Get All Link
+
+let navLinks = document.querySelectorAll('nav ul li a'); 
+// Get All Sections
+
+lat sections = document.querySelectorAll('section');

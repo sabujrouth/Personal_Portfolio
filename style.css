@@ -942,7 +942,7 @@ main {
 
 #contact .contact-row .contact-right form input:focus,
 #contact .contact-row .contact-right form textarea:focus {
-    border-color: 2px solid (--themeColor);
+    border: 2px solid var(--themeColor);
 }
 
 #contact .contact-row .contact-right form input[type=submit] {
@@ -954,6 +954,22 @@ main {
     cursor: pointer;
 }
 
+@media only screen and (max-width: 800px) {
+    #contact {
+        padding: 50px;
+    }
+
+    #contact .contact-row {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #contact {
+        padding: 50px 10px;
+    }
+}
 
 
 
