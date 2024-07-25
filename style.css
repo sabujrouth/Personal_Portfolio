@@ -915,6 +915,15 @@ main {
     font-weight: 500;
 }
 
+#contact .contact-row .contact-right {
+    flex-basis: 60%;
+    min-width: 60%;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 20%);
+    border-radius: 7px;
+    padding: 30px;
+}
+
 
 
 /* =======================================CONTACT END=======================================*/
