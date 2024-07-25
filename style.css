@@ -929,12 +929,20 @@ main {
 #contact .contact-row .contact-right form textarea {
     display: block;
     width: 100%;
-    margin: 30px 0;
+    margin: 25px 0;
     font-size: 15px;
     font-weight: 500;
     color: var(--textColor);
     padding: 10px 20px;
+    border: 2px solid lightgray;
+    border-radius: 4px;
+    outline: none;
+    resize: none;
+}
 
+#contact .contact-row .contact-right form input:focus,
+#contact .contact-row .contact-right form textarea:focus {
+    border-color: 2px solid (--themeColor);
 }
 
 
