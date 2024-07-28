@@ -36,8 +36,7 @@ window.addEventListener('scroll', function () {
     sections.forEach(section => {
            if (scrollPos > section.offsetTop && scrollPos < (section.offsetTop + section.offsetHeight)) {
                 navLinks.forEach(link => {
-                    link
-                
+                    link.classList.remove('active');
                     })
            }
         
