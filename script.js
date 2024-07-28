@@ -32,13 +32,13 @@ let sections = document.querySelectorAll('section')
 
 
 window.addEventListener('scroll', function () {
-    const scrollpos = this.window.scrollY
+    const scrollPos = this.window.scrollY
     sections.forEach(section => {
-           if (scrollpos > section.offsetTop && scrollpos < (section.offsetTop + section.offsetHeight)) {
+           if (scrollPos > section.offsetTop && scrollPos < (section.offsetTop + section.offsetHeight)) {
                 navLinks.forEach(link => {
                     link
+                
                     })
-                })
            }
         
     })
