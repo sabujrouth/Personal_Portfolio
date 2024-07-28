@@ -34,8 +34,8 @@ let sections = document.querySelectorAll('section')
 window.addEventListener('scroll', function () {
     const scrollpos = this.window.scrollY
     sections.forEach(section => {
-           if (scrollpos > section.offsetTop && scrollpos < (section offsetTop + section.offsetHeight)) {
-            
+           if (scrollpos > section.offsetTop && scrollpos < (section.offsetTop + section.offsetHeight)) {
+
            }
         
     })
