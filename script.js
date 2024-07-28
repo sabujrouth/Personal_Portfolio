@@ -26,4 +26,18 @@ let typed = new Typed('.auto-input', {
 let navLinks = document.querySelectorAll('nav ul li a'); 
 // Get All Sections
 
-lat sections = document.querySelectorAll('section');
+let sections = document.querySelectorAll('section')
+
+
+
+
+window.addEventListener('scroll', function () {
+    const scrollpos = this.window.scrollY
+    sections.forEach(section => {
+           if (scrollpos > section.offsetTop && scrollpos < (section offsetTop + section.offsetHeight)) {
+            
+           }
+        
+    })
+})
+
